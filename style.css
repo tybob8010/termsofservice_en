@@ -1,0 +1,72 @@
+body {
+    font-family: 'DotGothic16', sans-serif; /* 「ゲームっぽい」フォント */
+    background: rgba(0, 0, 0, 0.7); /* 暗い背景色 */
+    color: #ffffff; /* 明るい文字色 */
+    margin: 0;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="rgba(255,255,255,0.02)"/><path d="M0,0 L10,10 M10,0 L0,10" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/></svg>'); /* 微妙なテクスチャ */
+}
+
+.header {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.header a {
+    color: #ffffff; /* リンクの色 */
+    text-decoration: none;
+    border-bottom: 1px dashed #ffffff; /* Orteil氏はよく破線の下線を使う */
+}
+
+.header a:hover {
+    color: #ff9900;
+    border-bottom: 1px solid #ff9900;
+}
+
+.title {
+    padding: 0px;
+    color: #ffffff; 
+    text-align: center;
+    font-family: 'Press Start 2P', cursive; /* タイトル用のピクセルフォント */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 微妙な影 */
+}
+
+.content h1 {
+    padding: 0px;
+    color: #ffffff; 
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 微妙な影 */
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px; /* コンテンツの幅を制限 */
+    margin: 20px auto; /* コンテンツを中央に配置 */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px; /* コンテンツの幅を制限 */
+    margin: 20px auto; /* コンテンツを中央に配置 */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff; /* リンクの色 */
+    text-decoration: none;
+    border-bottom: 1px dashed #ffffff; /* Orteil氏はよく破線の下線を使う */
+}
+
+.footer a:hover {
+    color: #ff9900;
+    border-bottom: 1px solid #ff9900;
+}
